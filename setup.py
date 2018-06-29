@@ -9,7 +9,7 @@ def read(fname):
 
 setup(
     name='marshmallow-oneofschema',
-    version='1.0.5',
+    version='1.0.7',
     description='Marshmallow multiplexing schema',
     long_description=read('README.rst'),
     author='Maxim Kulkin',
@@ -20,12 +20,11 @@ setup(
     keywords=('serialization', 'deserialization', 'json',
               'marshal', 'marshalling', 'schema', 'validation',
               'multiplexing', 'demultiplexing', 'polymorphic'),
-    install_requires=['marshmallow==3.0.0b9'],
+    install_requires=['marshmallow==3.0.0b11'],
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',
